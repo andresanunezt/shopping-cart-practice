@@ -8,6 +8,7 @@ class Home extends Component {
         <div className="card" key={item.id}>
           <div className="card-image">
             <img src={item.img} alt={item.title} width="250" />
+            <br></br>
             <span className="card-title">{item.title}</span>
           </div>
 
