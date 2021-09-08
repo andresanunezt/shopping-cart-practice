@@ -11,7 +11,9 @@ class Home extends Component {
             <br></br>
             <br></br>
           </div>
-          <span className="blue-text text-darken-2">{item.title}</span>
+          <span className="indigo-text text-accent-1">
+            <h6>{item.title}</h6>
+          </span>
           <div className="card-content">
             <p>{item.desc}</p>
             <p>

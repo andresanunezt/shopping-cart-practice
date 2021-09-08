@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="nav-wrapper">
       <div className="container">
         <Link to="/" className="brand-logo">
-          GearCart
+          GearFreak
         </Link>
 
         <ul className="right">
@@ -14,11 +14,6 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="/cart">My cart</Link>
-          </li>
-          <li>
-            <Link to="/cart">
-              <i className="material-icons">cart</i>
-            </Link>
           </li>
         </ul>
       </div>
