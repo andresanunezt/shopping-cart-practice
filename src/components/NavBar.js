@@ -10,10 +10,10 @@ const Navbar = () => {
 
         <ul className="right">
           <li>
-            <Link to="/">Shop</Link>
+            <Link to="/">All Products</Link>
           </li>
           <li>
-            <Link to="/cart">My cart</Link>
+            <Link to="/cart">My Cart</Link>
           </li>
         </ul>
       </div>

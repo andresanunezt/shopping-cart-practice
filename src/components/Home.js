@@ -13,10 +13,11 @@ class Home extends Component {
           <span className="white-text">
             <h6>{item.title}</h6>
           </span>
-          <div className="card-content">
+          <div className="card-content white-text">
             <p>{item.desc}</p>
+            <br></br>
             <p>
-              <b>Price: {item.price}$</b>
+              <b className="black-text text">Price: {item.price}$</b>
             </p>
           </div>
         </div>
