@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="nav-wrapper">
       <div className="container">
         <Link to="/" className="brand-logo">
-          GearFreak
+          GearHead Inc.
         </Link>
 
         <ul className="right">

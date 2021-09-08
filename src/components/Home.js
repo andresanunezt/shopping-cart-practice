@@ -5,13 +5,12 @@ class Home extends Component {
   render() {
     let itemList = this.props.items.map((item) => {
       return (
-        <div className="card" key={item.id}>
+        <div className="card blue-grey lighten-3" key={item.id}>
           <div className="card-image">
             <img src={item.img} alt={item.title} width="250" />
             <br></br>
-            <br></br>
           </div>
-          <span className="indigo-text text-accent-1">
+          <span>
             <h6>{item.title}</h6>
           </span>
           <div className="card-content">
@@ -25,7 +24,7 @@ class Home extends Component {
     });
     return (
       <div className="container">
-        <h3 className="center">Products</h3>
+        <h3 className="center white-text">Products</h3>
         <div className="box">{itemList}</div>
       </div>
     );
