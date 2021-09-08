@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
-    <nav className="nav-wrapper deep-orange accent-2">
+    <nav className="nav-wrapper orange lighten-2">
       <div className="container">
         <Link to="/" className="brand-logo">
           GearHead Inc.

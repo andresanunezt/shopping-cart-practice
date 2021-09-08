@@ -5,7 +5,7 @@ class Home extends Component {
   render() {
     let itemList = this.props.items.map((item) => {
       return (
-        <div className="card blue-grey lighten-3" key={item.id}>
+        <div className="card orange lighten-2" key={item.id}>
           <div className="card-image">
             <img src={item.img} alt={item.title} width="250" />
             <br></br>
