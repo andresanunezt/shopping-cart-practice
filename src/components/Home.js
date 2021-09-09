@@ -7,7 +7,12 @@ class Home extends Component {
       return (
         <div className="card orange lighten-2" key={item.id}>
           <div className="card-image">
-            <img src={item.img} alt={item.title} width="250" />
+            <img
+              src={item.img}
+              alt={item.title}
+              width="250 "
+              class="materialboxed"
+            />
             <br></br>
           </div>
           <span className="black-text text">
