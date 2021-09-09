@@ -12,6 +12,7 @@ class Home extends Component {
               alt={item.title}
               width="250 "
               class="materialboxed"
+              data-caption={item.title}
             />
             <br></br>
           </div>
