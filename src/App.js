@@ -1,4 +1,5 @@
 import Navbar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
@@ -12,6 +13,7 @@ function App() {
           <Route exact path="/" component={Home} />
           {/* <Route path="/cart" component={Cart}/> */}
         </Switch>
+        <Footer />
       </div>
     </BrowserRouter>
   );
