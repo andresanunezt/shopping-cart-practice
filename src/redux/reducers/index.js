@@ -12,7 +12,7 @@ const initState = {
       title: "Mustang Bass",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.",
       price: 699.99,
-      img: "https://cdn.shopify.com/s/files/1/0343/4368/2183/products/fender-bass-guitars-4-string-fender-player-mustang-bass-capri-orange-0144053582-17220680253575_2000x.jpg?v=1620353473",
+      img: "https://cdn.shopify.com/s/files/1/0343/4368/2183/products/bgnm0v4nzirja4mvk4sy_6a002d72-f1f2-4f0a-bf70-3b8e6735aa70_2000x.jpg?v=1629294102",
     },
     {
       id: 3,
