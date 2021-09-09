@@ -25,7 +25,7 @@ class Home extends Component {
     });
     return (
       <div className="container">
-        <h3 className="center white-text">Products</h3>
+        <h3 className="center black-text">Products</h3>
         <div className="box">{itemList}</div>
       </div>
     );

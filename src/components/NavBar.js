@@ -4,16 +4,20 @@ const Navbar = () => {
   return (
     <nav className="nav-wrapper orange lighten-2">
       <div className="container">
-        <Link to="/" className="brand-logo deep-purple-text text-darken-4">
+        <Link to="/" className="brand-logo black-text">
           GearHead Inc.
         </Link>
 
-        <ul className="right">
+        <ul className="right black-text">
           <li>
-            <Link to="/">All Products</Link>
+            <Link to="/" className="black-text ">
+              All Products
+            </Link>
           </li>
           <li>
-            <Link to="/cart">My Cart</Link>
+            <Link to="/cart" className="black-text ">
+              My Cart
+            </Link>
           </li>
         </ul>
       </div>
