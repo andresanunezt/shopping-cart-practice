@@ -19,6 +19,9 @@ class Home extends Component {
             <p>
               <b className="black-text text">Price: {item.price}$</b>
             </p>
+            <a className="waves-effect waves-light btn-small">
+              <i class="material-icons">add_shopping_cart</i>
+            </a>
           </div>
         </div>
       );
