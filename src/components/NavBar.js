@@ -19,6 +19,9 @@ const Navbar = () => {
               My Cart
             </Link>
           </li>
+          <li>
+            <i class="material-icons">add_shopping_cart</i>
+          </li>
         </ul>
       </div>
     </nav>
