@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className="nav-wrapper orange lighten-2">
       <div className="container">
-        <Link to="/" className="brand-logo">
+        <Link to="/" className="brand-logo deep-purple-text text-darken-4">
           GearHead Inc.
         </Link>
 
