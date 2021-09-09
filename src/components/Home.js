@@ -10,10 +10,10 @@ class Home extends Component {
             <img src={item.img} alt={item.title} width="250" />
             <br></br>
           </div>
-          <span className="white-text">
+          <span className="black-text text">
             <h6>{item.title}</h6>
           </span>
-          <div className="card-content white-text">
+          <div className="card-content black-text text">
             <p>{item.desc}</p>
             <br></br>
             <p>
